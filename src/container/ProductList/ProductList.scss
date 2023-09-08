@@ -1,0 +1,18 @@
+@import "../../style/variable.scss";
+
+.product-list {
+  padding-bottom: 24px;
+
+  .left-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .ant-avatar {
+      background-color: transparent;
+    }
+
+    h5 {
+      margin-left: 12px !important;
+    }
+  }
+}

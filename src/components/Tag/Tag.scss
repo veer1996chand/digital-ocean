@@ -1,0 +1,30 @@
+@import "../../style/variable";
+
+.ant-tag {
+  display: inline-flex;
+  padding: 8px 12px 8px 12px;
+  align-items: center;
+  height: 32px;
+  border-radius: 40px;
+
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  background-color: $bg-white;
+  color: $secondary-text-color;
+
+  &-blue-cylindrical {
+    background-color: $blue-cylindrical;
+    border-color: $blue-cylindrical;
+    color: $primary-text-color;
+  }
+  &-light-gray {
+    background-color: $white-text-color;
+  }
+  &-small {
+    padding: 4px 12px;
+    height: 20px;
+  }
+}

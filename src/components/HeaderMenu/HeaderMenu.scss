@@ -1,0 +1,31 @@
+@import "../../style/variable.scss";
+
+.header-menu {
+  display: flex;
+  flex: 2;
+  ul {
+    display: flex;
+    flex: 0.5;
+    margin-left: auto;
+    margin-right: auto;
+    li {
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.5rem;
+      color: $sub-title-secondary !important;
+    }
+  }
+
+  .ant-menu {
+    &-horizontal {
+      line-height: 46px;
+      border-style: none !important;
+      box-shadow: none;
+    }
+    &-horizontal > .ant-menu-item-selected,
+    ::after,
+    .ant-menu-item-active::after {
+      border-style: none !important;
+    }
+  }
+}

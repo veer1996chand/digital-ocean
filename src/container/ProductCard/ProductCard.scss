@@ -1,0 +1,97 @@
+@import "../../style/variable.scss";
+
+.product-card {
+  width: 300px;
+  // height: 488px;
+  .ant-card {
+    &-body {
+      padding: 17px 0 0 0;
+      // height: 335px;
+    }
+    &-meta {
+      &-title {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 140% */
+        letter-spacing: 0.2px;
+        color: $primary-text-color;
+      }
+      &-description {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+        color: $secondary-text-color;
+      }
+    }
+  }
+}
+
+.normal-meta {
+  padding: 12px;
+}
+
+.bottom-wave-meta {
+  height: 171px;
+  padding: 20px 12px 12px 12px;
+
+  background-image: url(../../assets/images/Wave.png);
+  background-repeat: no-repeat;
+  .ant-card-meta {
+    &-title {
+      color: $white-text-color;
+    }
+    &-description {
+      color: $white-text-color;
+    }
+  }
+  .wave-bottom {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    a {
+      left: 0;
+      height: 24px;
+      color: #7bdeff;
+    }
+  }
+}
+
+.cover-img {
+  position: relative;
+  color: $primary-text-color;
+  img {
+    width: 300px;
+    height: 160px;
+  }
+}
+
+.top-left-tag {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.product-name-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: -18px;
+  width: 100%;
+  .img-logo {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    margin-left: 8px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-white;
+    img {
+      width: auto;
+      height: auto;
+    }
+  }
+}
