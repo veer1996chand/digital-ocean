@@ -1,44 +1,68 @@
-# Getting Started with Create React App
+# Digital Ocean
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+DigitalOcean's web portal is a user-friendly and robust platform that empowers individuals and businesses to easily manage their cloud infrastructure. This intuitive interface serves as the gateway to DigitalOcean's comprehensive suite of cloud computing services, allowing users to deploy, scale, and monitor their applications with efficiency and precision.
 
-In the project directory, you can run:
+Upon logging into the DigitalOcean web portal, users are greeted with a clean and organized dashboard that provides a snapshot of their resources. The portal offers seamless navigation, enabling users to swiftly access various features such as virtual machines (Droplets), storage solutions (Spaces and Volumes), networking configurations, and more.
 
-### `yarn start`
+The portal's design emphasizes simplicity without compromising functionality. Users can initiate Droplet deployments with just a few clicks, choosing from a variety of pre-configured images or customizing their setups according to specific requirements. DigitalOcean's web portal also facilitates easy scaling, allowing users to vertically adjust their resources to accommodate changing workloads.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- [React.js](https://react.dev/): A React framework for building web applications.
+- TypeScript: JavaScript With Syntax For Types.
+- HTML5, CSS 
+- Ant Design: An enterprise-class UI design language and React UI library with a set of high-quality React components, one of best React UI library for enterprises.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prerequisites
 
-### `yarn test`
+Make sure you have the following installed on your machine:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Node.js](https://nodejs.org/): The JavaScript runtime used to run the build scripts.
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/): Package managers for installing project dependencies.
+  
+## Getting Started
 
-### `yarn build`
+### Designed 
+We followed Figma design 
+Figma - [Digital Ocean](https://www.figma.com/file/mFZXp9lLt7uXbfPkAnhDxH/Digital-Ocean-Partner-Showcase?type=design&t=kBtFVXJBY1MjoBzm-6)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository: `[[git clone https://github.com/your-username/your-repository.git](https://github.com/veer1996chand/Digital Ocean)](https://github.com/veer1996chand/digital-ocean)`
+2. Navigate to the project directory: `cd digital-ocean`
+3. Install dependencies: `npm install` or `yarn install`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   
+### Development
 
-### `yarn eject`
+Run the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+Build
+To build the project for production:
+
+```bash
+npm run build
+# or
+yarn build
+
+```
+Project Structure
+We have the main folder Digital Ocean and we developed this project using [`Atomic design`]([https://atomicdesign.bradfrost.com/chapter-2/#:~:text=Molecules%20are%20groups%20of%20two,functioning%20together%20as%20a%20unit.]) in the Next js with Typescript. our main important directory is SRC where we placed all the components and pages.
+ 
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -68,3 +92,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
